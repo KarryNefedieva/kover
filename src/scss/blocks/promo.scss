@@ -1,0 +1,25 @@
+.promo{
+background-color: #df405a;
+height: 400px;
+color: #fff;
+font-family: 'Lora', serif;
+}
+
+.promo__title{
+padding-top: 30px;
+
+}
+
+.promo__subtitle{
+padding-top: 10px;
+  float: left;
+}
+
+.promo__image {
+  float: left;
+  height: 400px;
+  transform: rotate(45deg);
+  position: relative;
+  top: -110px;
+  left: 100px
+}
