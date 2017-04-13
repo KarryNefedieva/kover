@@ -10,11 +10,11 @@
 </head>
 <body>
 
-<header>
+<!-- <header>
   <div class="page-header">
-    <div class="container">
+    <div class="container ">
     <nav>
-      <ul class="nav nav-tabs nav-justified ">
+      <ul class="nav nav-tabs nav-justified">
         <li><a href="#" class="nav__link col-lg-2 col-sm-12 col-md-2">О нас</a></li>
         <li><a href="#" class="nav__link col-lg-2 col-sm-12 col-md-2">Новости</a></li>
         <li><a href="#" class="nav__link col-lg-2 col-sm-12 col-md-2">Контакты</a></li>
@@ -23,6 +23,30 @@
           <input type="text" class="form-control " placeholder="Чего желаете, сударь?">
           <button type="submit" class="btn btn-default search__btn ">Исполнить!</button>
         </form>
+      </ul>
+    </nav>
+   </div>
+  </div>
+</header> -->
+
+<header>
+  <div class="page-header">
+    <div class="">
+    <nav>
+      <ul class="nav nav-tabs nav-justified">
+
+        <div class="container">
+          <div class="row">
+              <li><a href="#" class="nav__link col-lg-2">О нас</a></li>
+              <li><a href="#" class="nav__link col-lg-2">Новости</a></li>
+              <li><a href="#" class="nav__link col-lg-2">Контакты</a></li>
+              <div class="col-lg-2"></div>
+              <form class="search__group col-lg-6" role="search">
+                <input type="text" class="form-control " placeholder="Чего желаете, сударь?">
+                <button type="submit" class="btn btn-default search__btn ">Исполнить!</button>
+              </form>
+          </div>
+        </div>
       </ul>
     </nav>
    </div>
@@ -41,24 +65,50 @@
 <div class="news">
   <div class="container">
     <span class="news__title"></span>
-    <div class="news__block">
-      <div class="news__note">
-        <div class="news__note-title col-4">Заголовок новости</div>
-        <div class="news__text">Lorem20</div>
+
+    <div class="news__block row">
+      <div class="news__note col-lg-4">
+        <div class="news__note-title ">Скидку 20% за селфи на фоне ковра!</div>
+        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!</p>
       </div>
-      <div class="news__note">
-        <div class="news__note-title col-4">Заголовок новости</div>
-        <div class="news__text">Lorem20</div>
+      <div class="news__note col-lg-4">
+        <div class="news__note-title">Наша новая фрактальчатая коллекция!</div>
+       <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!</p>
       </div>
-      <div class="news__note">
-        <div class="news__note-title col-4">Заголовок новости</div>
-        <div class="news__text">Lorem20</div>
+      <div class="news__note col-lg-4">
+        <div class="news__note-title ">Летим на Кипр на своем новом шерстяном друге</div>
+        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis porro rerum corrupti blanditiis provident vero sed aliquam quis architecto impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi tempora ipsa totam exercitationem doloremque neque, autem voluptatem, iste cum! Libero!</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="footer"></div>
+
+<footer >
+<div class="container">
+  <div class="contact row">
+    <div class="col-sm-8">
+    <span class="contact__title--address"> Наш аэродром находится:</span>
+    <span class="contact__text--address"> СПб, ул. Взлетная д.2. Идите направо, налево,  <br> налево, потом направо. И дойдете.</span>
+    </div>
+
+  <div class="col-sm-4">
+
+    <div class="contact__block">
+      <span  class="contact__title">Телефон:</span>
+      <span class="contact__text"> 8 800 500 5050</span>
+   </div>
+
+    <div class="contact__block--second">
+      <span  class="contact__title">E-mail:</span>
+      <span class="contact__text"> hello@mail.ru</span>
+  </div>
+  </div>
+
+</div>
+  </div>
+</footer>
 
 </body>
 </html>

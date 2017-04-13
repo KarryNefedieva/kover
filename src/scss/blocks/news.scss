@@ -1,6 +1,28 @@
-.news{
-  border: 5px solid red;
-  float: left;
-  // display: block
+.news__note{
 
+  float: left;
+  display: inline-block;
+  padding-top: 20px;
+
+}
+
+.news{
+background-color: #512645;
+color: #fff;
+}
+
+.news__text {
+  display: block;
+  min-width: 33%
+
+}
+
+.news__note-title{
+  font-weight: 700;
+  font-size: 25px;
+font-family: 'Lora', sans-serif;
+}
+
+.news__text{
+  margin-top: 20px;
 }
